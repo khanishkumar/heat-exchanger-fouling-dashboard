@@ -34,7 +34,6 @@ import struct
 import sys
 import time
 import traceback
-import gflags as flags
 FLAGS = flags.FLAGS
 
 flags.DEFINE_boolean('run_with_pdb', 0, 'Set to true for PDB debug mode')
